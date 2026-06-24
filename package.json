@@ -5,7 +5,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "start": "node app.js",
+    "dev": "nodemon server.js",
+    "vercel-start": "node server.js"
   },
   "keywords": [],
   "author": "",
